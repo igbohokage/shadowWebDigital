@@ -1,0 +1,140 @@
+.primary-button:hover,
+.quote-link:hover,
+.secondary-button:hover{
+transform:translateY(-1px)}
+.trust-strip{
+flex-wrap:wrap;
+gap:10px;
+display:flex}
+.trust-strip span{
+border:1px solid var(--line);
+color:#e9eefc;
+background:#ffffff0f;
+border-radius:8px;
+align-items:center;
+gap:7px;
+padding:9px 12px;
+display:inline-flex}
+.hero-visual{
+position:relative}
+.hero-visual:before{
+content:"";
+filter:blur(70px);
+background:#3b82f64d;
+border-radius:50%;
+width:58%;
+height:58%;
+position:absolute;
+inset:12% -5% auto auto}
+.dashboard-mockup{
+min-height:460px;
+box-shadow:var(--shadow),
+ inset 0 1px 0 #ffffff2e;
+-webkit-backdrop-filter:blur(24px);
+backdrop-filter:blur(24px);
+background:linear-gradient(150deg,
+#ffffff1a,
+#ffffff09),
+#101014d1;
+border:1px solid #ffffff29;
+border-radius:8px;
+position:relative;
+overflow:hidden}
+.dashboard-mockup:after{
+content:"";
+background:linear-gradient(120deg,
+#0000 20%,
+#3b82f61f,
+#0000 45%);
+animation:6s ease-in-out infinite sweep;
+position:absolute;
+inset:0;
+transform:translate(-35%)}
+.mockup-top{
+border-bottom:1px solid var(--line);
+gap:7px;
+padding:18px;
+display:flex}
+.mockup-top span{
+background:#fff6;
+border-radius:50%;
+width:10px;
+height:10px}
+.mockup-grid{
+grid-template-columns:1.4fr 1fr;
+gap:14px;
+padding:18px;
+display:grid}
+.mockup-panel{
+border:1px solid var(--line);
+background:#00000057;
+border-radius:8px;
+min-height:132px;
+padding:18px}
+.mockup-panel.wide{
+grid-column:1/-1}
+.mockup-panel p{
+color:var(--muted);
+font-size:.88rem}
+.mockup-panel strong{
+margin-bottom:14px;
+font-size:2rem;
+display:block}
+.chart-bars{
+grid-template-columns:repeat(5,
+1fr);
+align-items:end;
+gap:10px;
+height:92px;
+display:grid}
+.chart-bars span{
+background:linear-gradient(180deg,
+ var(--blue),
+ var(--purple));
+border-radius:8px 8px 0 0}
+.chart-bars span:first-child{
+height:42%}
+.chart-bars span:nth-child(2){
+height:58%}
+.chart-bars span:nth-child(3){
+height:71%}
+.chart-bars span:nth-child(4){
+height:49%}
+.chart-bars span:nth-child(5){
+height:88%}
+.gradient-panel{
+background:linear-gradient(135deg,
+#3b82f63b,
+#7c3aed2e);
+align-items:center;
+gap:16px;
+display:flex}
+.gradient-panel img{
+object-fit:contain;
+filter:drop-shadow(0 0 20px #ffffff2e);
+width:74px;
+height:74px}
+.section-header{
+max-width:790px;
+margin-bottom:34px}
+.service-grid,
+.portfolio-grid,
+.testimonial-grid{
+grid-template-columns:repeat(3,
+minmax(0,
+1fr));
+gap:18px;
+display:grid}
+.service-card,
+.project-card,
+.testimonial-card,
+.contact-form,
+.growth-item{
+border:1px solid var(--line);
+-webkit-backdrop-filter:blur(18px);
+backdrop-filter:blur(18px);
+background:linear-gradient(145deg,
+#ffffff14,
+#ffffff09);
+border-radius:8px;
+box-shadow:0 20px 70px #00000038}

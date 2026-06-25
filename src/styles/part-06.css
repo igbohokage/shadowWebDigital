@@ -1,0 +1,103 @@
+.socials svg{
+width:18px;
+height:18px}
+.copyright{
+grid-column:1/-1;
+margin:0;
+font-size:.92rem}
+@keyframes sweep{
+0%,
+to{
+transform:translate(-40%)}
+50%{
+transform:translate(42%)}
+}
+@media (width<=980px){
+.desktop-nav,
+.quote-link{
+display:none}
+.menu-button{
+margin-left:auto;
+display:inline-flex}
+.hero,
+.why,
+.contact{
+grid-template-columns:1fr}
+.hero{
+min-height:auto}
+.hero-visual{
+max-width:620px}
+.service-grid,
+.portfolio-grid,
+.testimonial-grid{
+grid-template-columns:repeat(2,
+minmax(0,
+1fr))}
+.timeline{
+grid-template-columns:1fr}
+.timeline:before{
+width:2px;
+height:auto;
+inset:0 auto 0 30px}
+.timeline-item{
+grid-template-columns:60px 1fr;
+gap:16px;
+display:grid}
+.stats-band{
+grid-template-columns:repeat(2,
+1fr)}
+.footer{
+grid-template-columns:1fr}
+}
+@media (width<=640px){
+.cursor-glow{
+display:none}
+.section{
+width:min(100% - 24px,
+1180px);
+padding:68px 0}
+.navbar{
+width:min(100% - 24px,
+1180px)}
+.navbar:before{
+inset:10px 0}
+.brand span{
+font-size:.92rem}
+h1{
+font-size:clamp(2.55rem,
+13.5vw,
+4.2rem)}
+.hero-actions,
+.primary-button,
+.secondary-button{
+width:100%}
+.dashboard-mockup{
+min-height:0}
+.mockup-grid{
+grid-template-columns:1fr}
+.mockup-panel.wide{
+grid-column:auto}
+.service-grid,
+.portfolio-grid,
+.testimonial-grid,
+.stats-band,
+.contact-form{
+grid-template-columns:1fr}
+.stats-band{
+width:min(100% - 24px,
+1180px)}
+.contact-form{
+padding:18px}
+.footer{
+width:min(100% - 24px,
+1180px)}
+}
+@media (prefers-reduced-motion:reduce){
+*,
+:before,
+:after{
+scroll-behavior:auto!important;
+transition-duration:.01ms!important;
+animation-duration:.01ms!important;
+animation-iteration-count:1!important}
+}
