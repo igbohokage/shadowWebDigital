@@ -37,7 +37,7 @@ export function Hero({ scrollTo, heroY }) {
         </motion.p>
         <motion.h1 variants={fadeUp}>Professional Websites Built To Grow Your Business.</motion.h1>
         <motion.p className="hero-subtitle" variants={fadeUp}>
-          We create websites that attract customers, build trust, and help businesses generate more revenue.
+          Shadow Web Digital creates fast, mobile-friendly websites, local SEO foundations, and landing pages that help businesses attract customers, build trust, and generate more revenue.
         </motion.p>
         <motion.div className="hero-actions" variants={fadeUp}>
           <button className="primary-button" onClick={() => scrollTo('contact')}>
@@ -91,7 +91,7 @@ export function Hero({ scrollTo, heroY }) {
               <strong>98</strong>
             </div>
             <div className="mockup-panel wide gradient-panel">
-              <img src="/shadowWeb.png" alt="" />
+              <img src="/shadowWeb.png" alt="" width="64" height="64" decoding="async" />
               <div>
                 <p>Shadow system active</p>
                 <strong>Growth mode</strong>
@@ -107,7 +107,7 @@ export function Hero({ scrollTo, heroY }) {
 export function Services() {
   return (
     <section className="section" id="services">
-      <SectionHeader eyebrow="Services" title="Websites That Turn Attention Into Action" text="Every build is designed to make your business easier to find, easier to trust, and easier to choose." />
+      <SectionHeader eyebrow="Services" title="SEO-Friendly Website Design Services" text="Every build is designed to make your business easier to find, easier to trust, and easier to choose." />
       <div className="service-grid">
         {services.map((service, index) => (
           <RevealCard className="service-card" key={service.title} delay={index * 0.05}>
@@ -135,7 +135,7 @@ export function Services() {
 
 export function WhyChoose() {
   const items = [
-    ['More visibility online', 'Show up where customers are already searching.'],
+    ['More visibility online', 'Build a crawlable, search-ready website around the services customers already search for.'],
     ['Increased customer trust', 'Look established before the first phone call.'],
     ['More leads and sales', 'Give visitors clear reasons and routes to act.'],
     ['Mobile optimized experience', 'Make every tap, scroll, and form feel effortless.'],
@@ -146,9 +146,9 @@ export function WhyChoose() {
     <section className="why section">
       <div>
         <p className="eyebrow">Why Choose Us</p>
-        <h2>Your Silent Partner In Business Growth</h2>
+        <h2>A Web Design Partner For Search Visibility And Growth</h2>
         <p>
-          You stay focused on serving customers. We build the online presence that helps them find you, trust you, and choose you faster.
+          You stay focused on serving customers. We build the online presence that helps search engines understand your services and helps visitors choose you faster.
         </p>
       </div>
       <div className="growth-list">
@@ -176,7 +176,7 @@ export function WhyChoose() {
 export function Process() {
   return (
     <section className="section" id="process">
-      <SectionHeader eyebrow="Process" title="A Clear Path From Invisible To In Demand" text="No mystery in the work itself: just focused strategy, polished execution, and measurable growth signals." />
+      <SectionHeader eyebrow="Process" title="A Clear Website Launch And SEO Process" text="No mystery in the work itself: just focused strategy, polished execution, technical SEO, and measurable growth signals." />
       <div className="timeline">
         {processSteps.map(([title, text], index) => (
           <motion.div
@@ -202,7 +202,7 @@ export function Process() {
 export function Portfolio() {
   return (
     <section className="section" id="portfolio">
-      <SectionHeader eyebrow="Portfolio" title="Placeholder Work Built Around Real Business Outcomes" text="Sample project directions showing how targeted websites can move practical numbers: bookings, calls, leads, and inquiries." />
+      <SectionHeader eyebrow="Portfolio" title="Business Website Examples Built Around Real Outcomes" text="Sample project directions showing how targeted websites can move practical numbers: bookings, calls, leads, and inquiries." />
       <div className="portfolio-grid">
         {portfolio.map((project, index) => (
           <RevealCard className="project-card" key={project.title} delay={index * 0.07}>
@@ -229,7 +229,7 @@ export function Stats() {
     <section className="stats-band">
       {[
         ['42%', 'average lift in qualified inquiries'],
-        ['98', 'mobile performance target'],
+        ['98', 'mobile page speed target'],
         ['5+', 'growth channels connected'],
         ['24/7', 'online credibility'],
       ].map(([value, label], index) => (
@@ -273,7 +273,7 @@ function AnimatedNumber({ value }) {
 export function Testimonials() {
   return (
     <section className="section testimonials">
-      <SectionHeader eyebrow="Testimonials" title="Owners Notice When Their Website Starts Pulling Weight" text="Realistic examples of the kind of business impact Shadow Web Digital is built to create." />
+      <SectionHeader eyebrow="Testimonials" title="Business Owners Notice When Their Website Starts Ranking And Converting" text="Realistic examples of the kind of business impact Shadow Web Digital is built to create." />
       <div className="testimonial-grid">
         {testimonials.map((testimonial, index) => (
           <RevealCard className="testimonial-card" key={testimonial.name} delay={index * 0.08}>
@@ -294,7 +294,7 @@ export function Faq() {
   const [open, setOpen] = useState(0);
   return (
     <section className="section faq" id="faq">
-      <SectionHeader eyebrow="FAQ" title="Clear Answers Before We Build" text="A professional site should feel like a smart investment, not a confusing purchase." />
+      <SectionHeader eyebrow="FAQ" title="Website Design And SEO Questions" text="A professional site should feel like a smart investment, not a confusing purchase." />
       <div className="faq-list">
         {faqs.map(([question, answer], index) => (
           <div className="faq-item" key={question}>
@@ -319,9 +319,9 @@ export function Contact() {
     <section className="contact section" id="contact">
       <div className="contact-copy">
         <p className="eyebrow">Get A Free Quote</p>
-        <h2>Tell Us Where Your Business Needs To Shine Next</h2>
+        <h2>Get A Website And SEO Plan For Your Business</h2>
         <p>
-          Share a few details and we will map the fastest route to a sharper online presence, more credibility, and more qualified customers.
+          Share a few details and we will map the fastest route to a sharper online presence, stronger search visibility, more credibility, and more qualified customers.
         </p>
         <div className="contact-points">
           <span>

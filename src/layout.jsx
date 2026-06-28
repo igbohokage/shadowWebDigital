@@ -8,6 +8,9 @@ export function Loader() {
       <motion.img
         src="/shadowWeb.png"
         alt="Shadow Web Digital logo"
+        width="160"
+        height="160"
+        decoding="async"
         initial={{ opacity: 0, scale: 0.8, rotate: -8 }}
         animate={{ opacity: 1, scale: 1, rotate: 0 }}
         transition={{ duration: 0.55 }}
@@ -21,7 +24,7 @@ export function Header({ menuOpen, setMenuOpen, scrollTo }) {
   return (
     <header className="navbar">
       <a className="brand" href="#home" aria-label="Shadow Web Digital home">
-        <img src="/shadowWeb.png" alt="" />
+        <img src="/shadowWeb.png" alt="" width="42" height="42" decoding="async" />
         <span>Shadow Web Digital</span>
       </a>
       <nav className="desktop-nav" aria-label="Primary navigation">
@@ -56,7 +59,7 @@ export function Footer({ scrollTo }) {
   return (
     <footer className="footer">
       <div className="footer-brand">
-        <img src="/shadowWeb.png" alt="" />
+        <img src="/shadowWeb.png" alt="" width="56" height="56" loading="lazy" decoding="async" />
         <div>
           <strong>Shadow Web Digital</strong>
           <p>Working in the shadows so your business can shine.</p>
@@ -70,10 +73,10 @@ export function Footer({ scrollTo }) {
         ))}
       </nav>
       <div className="socials" aria-label="Social media links">
-        <a href="https://www.instagram.com/" aria-label="Instagram">
+        <a href="https://www.instagram.com/shadowwebdigital/" aria-label="Instagram">
           <Sparkles />
         </a>
-        <a href="https://www.facebook.com/" aria-label="Facebook">
+        <a href="https://x.com/ShadowWebDigi" aria-label="X">
           <Send />
         </a>
         <a href="mailto:hello@shadowwebdigital.com" aria-label="Email">

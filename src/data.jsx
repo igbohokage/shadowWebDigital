@@ -12,25 +12,25 @@ export const services = [
   {
     icon: Paintbrush,
     title: 'Custom Website Design',
-    description: 'Premium websites built around your brand, customer journey, and revenue goals.',
-    benefits: ['Credibility from the first click', 'Conversion-focused layouts', 'Distinctive visual identity'],
+    description: 'Premium business websites built around your brand, customer journey, search visibility, and revenue goals.',
+    benefits: ['Credibility from the first click', 'Conversion-focused layouts', 'Search-friendly page structure'],
   },
   {
     icon: Code2,
     title: 'Website Redesigns',
-    description: 'Turn an outdated site into a sharper sales asset that feels modern on every device.',
+    description: 'Turn an outdated website into a faster, clearer sales asset that feels modern on every device.',
     benefits: ['Cleaner messaging', 'Faster pages', 'Higher trust and retention'],
   },
   {
     icon: Search,
     title: 'Local SEO Optimization',
-    description: 'Help nearby customers find you when they are ready to call, book, visit, or buy.',
-    benefits: ['Search-ready structure', 'Local intent keywords', 'Better visibility'],
+    description: 'Help nearby customers find your services when they are ready to call, book, visit, or buy.',
+    benefits: ['Search-ready structure', 'Local intent keywords', 'Crawlable service content'],
   },
   {
     icon: Target,
     title: 'Landing Pages',
-    description: 'Focused pages for offers, ads, campaigns, and service launches that need action.',
+    description: 'Focused landing pages for offers, ads, campaigns, and service launches that need action.',
     benefits: ['Clear calls to action', 'Lead capture built in', 'Campaign-ready tracking'],
   },
   {
@@ -49,9 +49,9 @@ export const services = [
 
 export const processSteps = [
   ['Discovery Call', 'We learn your business, customers, offers, and what growth needs to look like.'],
-  ['Strategy & Planning', 'We map pages, messaging, conversion points, and search opportunities.'],
-  ['Design & Development', 'We craft the visual system, build responsive pages, and refine the experience.'],
-  ['Launch & Growth', 'We publish, test, track, and keep improving toward leads, calls, and revenue.'],
+  ['SEO Strategy & Planning', 'We map pages, messaging, conversion points, and search opportunities around your services.'],
+  ['Design & Development', 'We craft the visual system, build responsive pages, and refine the performance experience.'],
+  ['Launch & Growth', 'We publish, test, connect search visibility tools, and keep improving toward leads, calls, and revenue.'],
 ];
 
 export const portfolio = [
@@ -60,7 +60,7 @@ export const portfolio = [
     title: 'Restaurant Website',
     industry: 'Hospitality',
     metrics: '+42% online reservations',
-    features: ['Menu-first mobile layout', 'Google Maps integration', 'Private event inquiry flow'],
+    features: ['Menu-first mobile layout', 'Google Maps integration', 'Local restaurant SEO structure'],
   },
   {
     icon: Dumbbell,
@@ -74,7 +74,7 @@ export const portfolio = [
     title: 'Construction Company Website',
     industry: 'Home Services',
     metrics: '+57% quote requests',
-    features: ['Project gallery', 'Service-area SEO pages', 'Estimate request form'],
+    features: ['Project gallery', 'Service area SEO pages', 'Estimate request form'],
   },
   {
     icon: Users,
@@ -114,9 +114,9 @@ export const testimonials = [
 ];
 
 export const faqs = [
-  ['How long does a website take?', 'Most small business websites take 2 to 5 weeks depending on page count, content readiness, and feature complexity.'],
+  ['How long does a website take?', 'Most small business websites take 2 to 5 weeks depending on page count, content readiness, SEO scope, and feature complexity.'],
   ['How much does a website cost?', 'Pricing depends on scope, but every proposal is clear, fixed around outcomes, and matched to the revenue opportunity of the project.'],
   ['Will my website work on mobile?', 'Yes. Every site is designed mobile-first so customers can call, book, buy, or request a quote from any device.'],
-  ['Can you redesign an existing website?', 'Absolutely. We can improve your current site structure, copy, performance, design foundation, and conversion flow.'],
+  ['Can you redesign an existing website?', 'Absolutely. We can improve your current site structure, copy, technical SEO, performance, design foundation, and conversion flow.'],
   ['Do you provide hosting?', 'We can help set up reliable hosting and ongoing maintenance so your site stays fast, secure, and easy to update.'],
 ];
